@@ -15,7 +15,7 @@
 | --- | --- | --- | --- |
 | appid | string | 是 | 第三方应用在腾讯文档开放平台申请的应用标识
 | state | string | 否 | 回调URL时会附加此参数，第三方应用可以用来关联请求和回调
-| scope | string | 是 | 第三方应用请求腾讯文档开放平台的资源作用域
+| scope | string | 是 | 第三方应用请求腾讯文档开放平台的资源作用域，当前只支持userinfo、doc、privilege，用逗号分隔
 | redirect_uri | string | 是 | 验证完成后回调第三方应用的URL，需要URL Encode
 | response_type | string | 是 | 第三方应用请求腾讯文档开放平台验证的临时票据类型，当前只支持填code
 
