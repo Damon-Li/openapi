@@ -25,7 +25,7 @@
 
 请求方式：POST
 
-请求地址：https://docs.qq.com/oauth/v1/doc/?appid={APP_ID}&openid={OPEN_ID}
+请求地址：https://docs.qq.com/openapi/v1/doc/?appid={APP_ID}&openid={OPEN_ID}
 
 请求参数：
 
@@ -45,7 +45,7 @@
 
 请求方式：DELETE
 
-请求地址：https://docs.qq.com/oauth/v1/doc/?appid={APP_ID}&openid={OPEN_ID}&doc_id={OPEN_ID}
+请求地址：https://docs.qq.com/openapi/v1/doc/?appid={APP_ID}&openid={OPEN_ID}&doc_id={OPEN_ID}
 
 请求参数：
 
@@ -57,7 +57,7 @@
 
 请求方式：PUT
 
-请求地址：https://docs.qq.com/oauth/v1/doc/?appid={APP_ID}&openid={OPEN_ID}
+请求地址：https://docs.qq.com/openapi/v1/doc/?appid={APP_ID}&openid={OPEN_ID}
 
 请求参数：
 
@@ -70,7 +70,7 @@
 
 请求方式：GET
 
-请求地址：https://docs.qq.com/oauth/v1/doc/?appid={APP_ID}&openid={OPEN_ID}&doc_id={OPEN_ID}
+请求地址：https://docs.qq.com/openapi/v1/doc/?appid={APP_ID}&openid={OPEN_ID}&doc_id={OPEN_ID}
 
 请求参数：
 
