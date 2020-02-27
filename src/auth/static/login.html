@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+</head>
+<body>
+<h1 style="text-align: center;">腾讯文档开放平台</h1>
+<div style="text-align: center;" id="login_container"></div>
+<script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+<script>
+    var obj = new WxLogin({
+        id: "login_container",
+        appid: "wx02b8ff0031cec148",
+        scope: "snsapi_login",
+        redirect_uri: encodeURIComponent("http://docs.qq.com/auth"),
+        state: Math.ceil(Math.random()*1000),
+        style: "black",
+        href: ""});
+</script>
+</body>
+</html>
