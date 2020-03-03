@@ -5,6 +5,12 @@
 
 ## 调用流程
 
+![调用流程](/flow.0.png)
+
+更多参考：https://tools.ietf.org/html/rfc6749#section-4.1
+
+## 授权流程
+
 ### 手机/邮箱授权
 ![手机/邮箱授权流程](/flow.1.png)
 
